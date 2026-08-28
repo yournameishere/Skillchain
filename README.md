@@ -107,7 +107,7 @@ This release moved SkillChain from a visual prototype to a working testnet produ
 
 The roadmap is organized into waves so each stage creates a useful product improvement without depending on every later feature. Future items are plans, not claims about current functionality.
 
-### Wave 1 — Testnet foundation (completed)
+### Wave 3 — Testnet foundation (completed)
 
 - Practical assessments and transparent rubric reports.
 - Wallet connection and 0G Galileo network switching.
@@ -116,7 +116,7 @@ The roadmap is organized into waves so each stage creates a useful product impro
 - Public credential verification and shareable links.
 - Responsive production UI, Vercel deployment, security headers, and smoke testing.
 
-### Wave 2 — Better evaluation and developer experience
+### Wave 4 — Better evaluation and developer experience
 
 - Connect a valid 0G Compute Galileo Router key for live AI-assisted review.
 - Add executable sandboxed tests for supported challenge types.
@@ -125,7 +125,6 @@ The roadmap is organized into waves so each stage creates a useful product impro
 - Expand the challenge library with backend, Rust, Python, data, security, and zero-knowledge tracks.
 - Add richer evidence notes explaining why each rubric score was awarded.
 
-### Wave 3 — Profiles and discovery
 
 - Create public developer profiles with verified credentials and skill summaries.
 - Add an indexed credential explorer so credentials can be discovered without knowing the ID.
@@ -133,15 +132,13 @@ The roadmap is organized into waves so each stage creates a useful product impro
 - Add learner progress views, skill paths, and private improvement recommendations.
 - Support profile sharing with human-readable usernames while keeping wallets authoritative.
 
-### Wave 4 — Organizations and assessment operations
+### Wave 5 — Organizations and assessment operations
 
 - Let verified organizations create private or public challenge collections.
 - Add reviewer roles, moderation queues, disputes, and appeal workflows.
 - Add organization dashboards for invitations, candidate comparisons, and credential policies.
 - Support team-issued credentials with multisignature or role-based issuer administration.
 - Add notifications for completed evaluations, issued credentials, expiring invitations, and revocations.
-
-### Wave 5 — Protocol integrations and mainnet readiness
 
 - Provide a documented verification API and SDK for third-party applications.
 - Add optional token-gated roles, contributor access, bounties, and reputation integrations.
