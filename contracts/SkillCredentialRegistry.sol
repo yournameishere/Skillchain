@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+
 contract SkillCredentialRegistry {
     struct Credential { address subject; string skill; string level; uint16 score; bytes32 submissionHash; uint64 issuedAt; address issuer; bool revoked; }
     address public owner;
