@@ -1,0 +1,27 @@
+{
+  "name": "skillchain",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:registry": "node scripts/deploy-registry.mjs",
+    "smoke:registry": "node scripts/smoke-registry.mjs",
+    "smoke:api": "node scripts/smoke-api.mjs",
+    "generate:secrets": "node scripts/generate-deployment-secrets.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "solc": "^0.8.30"
+  }
+}

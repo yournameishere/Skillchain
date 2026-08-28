@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.playwright-cli/
+.env
+.env.*
+!.env.example
+registry-address.json
+.issuer-private-key
+.assessment-secret
+
+.vercel
