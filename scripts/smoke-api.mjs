@@ -1,7 +1,7 @@
 import { AbiCoder, Contract, JsonRpcProvider, getBytes, keccak256, toUtf8Bytes, verifyMessage } from 'ethers';
 
 const appUrl = 'https://skillchain-sigma.vercel.app';
-sdf
+
 const registryAddress = '0x5b8c1A2a465300a78C2299fa63aBa6aA538E3bE0';
 const subject = '0x10ac9924a78051BdD770978740C5084205cdB628';
 const source = 'pragma solidity ^0.8.24; contract Smoke { address public owner; constructor(){owner=msg.sender;} function ping() external pure returns(bool){return true;} }';
